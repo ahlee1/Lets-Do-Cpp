@@ -1,0 +1,21 @@
+# ninja log v5
+2	61	7244961251127113	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-mkdir	6a123b87596d23f1
+2	61	7244961251127113	C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/out/build/x64-Debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-mkdir	6a123b87596d23f1
+61	1880	7244961269322390	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-download	825f54211c1c5792
+61	1880	7244961269322390	C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/out/build/x64-Debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-download	825f54211c1c5792
+1880	3245	0	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-update	a5f54c91047f91a9
+1880	3245	0	C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/out/build/x64-Debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-update	a5f54c91047f91a9
+3245	3293	7244961283453760	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-patch	3075cf3a94c919f7
+3245	3293	7244961283453760	C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/out/build/x64-Debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-patch	3075cf3a94c919f7
+3293	3341	7244961283933788	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-configure	93cdb5396221498f
+3293	3341	7244961283933788	C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/out/build/x64-Debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-configure	93cdb5396221498f
+3341	3390	7244961284423911	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-build	ab23d82f7edaa14c
+3341	3390	7244961284423911	C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/out/build/x64-Debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-build	ab23d82f7edaa14c
+3390	3439	7244961284913928	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-install	b6138d3c3aa82118
+3390	3439	7244961284913928	C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/out/build/x64-Debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-install	b6138d3c3aa82118
+3439	3486	7244961285385671	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-test	1193c0fc38a288b1
+3439	3486	7244961285385671	C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/out/build/x64-Debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-test	1193c0fc38a288b1
+3486	3553	7244961286055676	CMakeFiles/googlebenchmark-populate-complete	acb5463696acdc1e
+3486	3553	7244961286055676	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-done	acb5463696acdc1e
+3486	3553	7244961286055676	C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/out/build/x64-Debug/_deps/googlebenchmark-subbuild/CMakeFiles/googlebenchmark-populate-complete	acb5463696acdc1e
+3486	3553	7244961286055676	C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/out/build/x64-Debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-done	acb5463696acdc1e
