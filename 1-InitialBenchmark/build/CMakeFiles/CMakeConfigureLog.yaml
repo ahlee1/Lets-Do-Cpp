@@ -1,0 +1,876 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19043 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.4.1+9a89d02ff for .NET Framework
+      Build started 2023-12-17 12:29:28 PM.
+      Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.82
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.4.1+9a89d02ff for .NET Framework
+      Build started 2023-12-17 12:29:29 PM.
+      Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.61
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-tvlher"
+      binary: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-tvlher"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-tvlher'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f82a8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-12-17 12:29:30 PM.
+        Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tvlher\\cmTC_f82a8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f82a8.dir\\Debug\\".
+          Creating directory "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tvlher\\Debug\\".
+          Creating directory "cmTC_f82a8.dir\\Debug\\cmTC_f82a8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f82a8.dir\\Debug\\cmTC_f82a8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f82a8.dir\\Debug\\\\" /Fd"cmTC_f82a8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f82a8.dir\\Debug\\\\" /Fd"cmTC_f82a8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tvlher\\Debug\\cmTC_f82a8.exe" /INCREMENTAL /ILK:"cmTC_f82a8.dir\\Debug\\cmTC_f82a8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-tvlher/Debug/cmTC_f82a8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-tvlher/Debug/cmTC_f82a8.lib" /MACHINE:X64  /machine:x64 cmTC_f82a8.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_f82a8.vcxproj -> C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tvlher\\Debug\\cmTC_f82a8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f82a8.dir\\Debug\\cmTC_f82a8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f82a8.dir\\Debug\\cmTC_f82a8.tlog\\cmTC_f82a8.lastbuildstate".
+        Done Building Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tvlher\\cmTC_f82a8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.61
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-852vv0"
+      binary: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-852vv0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-852vv0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f8a50.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-12-17 12:29:31 PM.
+        Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-852vv0\\cmTC_f8a50.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f8a50.dir\\Debug\\".
+          Creating directory "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-852vv0\\Debug\\".
+          Creating directory "cmTC_f8a50.dir\\Debug\\cmTC_f8a50.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f8a50.dir\\Debug\\cmTC_f8a50.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f8a50.dir\\Debug\\\\" /Fd"cmTC_f8a50.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f8a50.dir\\Debug\\\\" /Fd"cmTC_f8a50.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-852vv0\\Debug\\cmTC_f8a50.exe" /INCREMENTAL /ILK:"cmTC_f8a50.dir\\Debug\\cmTC_f8a50.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-852vv0/Debug/cmTC_f8a50.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-852vv0/Debug/cmTC_f8a50.lib" /MACHINE:X64  /machine:x64 cmTC_f8a50.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f8a50.vcxproj -> C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-852vv0\\Debug\\cmTC_f8a50.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f8a50.dir\\Debug\\cmTC_f8a50.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f8a50.dir\\Debug\\cmTC_f8a50.tlog\\cmTC_f8a50.lastbuildstate".
+        Done Building Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-852vv0\\cmTC_f8a50.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/CMakeLists.txt:125 (check_library_exists)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-guseoq"
+      binary: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-guseoq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/Modules;C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_LIB_RT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-guseoq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c30ad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-12-17 12:29:32 PM.
+        Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guseoq\\cmTC_c30ad.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c30ad.dir\\Debug\\".
+          Creating directory "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guseoq\\Debug\\".
+          Creating directory "cmTC_c30ad.dir\\Debug\\cmTC_c30ad.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c30ad.dir\\Debug\\cmTC_c30ad.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=shm_open /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c30ad.dir\\Debug\\\\" /Fd"cmTC_c30ad.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guseoq\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=shm_open /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c30ad.dir\\Debug\\\\" /Fd"cmTC_c30ad.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guseoq\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guseoq\\Debug\\cmTC_c30ad.exe" /INCREMENTAL /ILK:"cmTC_c30ad.dir\\Debug\\cmTC_c30ad.ilk" /NOLOGO rt.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-guseoq/Debug/cmTC_c30ad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-guseoq/Debug/cmTC_c30ad.lib" /MACHINE:X64  /machine:x64 cmTC_c30ad.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'rt.lib' [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guseoq\\cmTC_c30ad.vcxproj]
+        Done Building Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guseoq\\cmTC_c30ad.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guseoq\\cmTC_c30ad.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'rt.lib' [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guseoq\\cmTC_c30ad.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.48
+        
+      exitCode: 1
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/CMakeLists.txt:297 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/Modules;C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8e8c3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-12-17 12:29:33 PM.
+        Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_8e8c3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8e8c3.dir\\Debug\\".
+          Creating directory "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_8e8c3.dir\\Debug\\cmTC_8e8c3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8e8c3.dir\\Debug\\cmTC_8e8c3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8e8c3.dir\\Debug\\\\" /Fd"cmTC_8e8c3.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\benchmark\\cmake\\std_regex.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+          std_regex.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8e8c3.dir\\Debug\\\\" /Fd"cmTC_8e8c3.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\benchmark\\cmake\\std_regex.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_8e8c3.exe" /INCREMENTAL /ILK:"cmTC_8e8c3.dir\\Debug\\cmTC_8e8c3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp/Debug/cmTC_8e8c3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp/Debug/cmTC_8e8c3.lib" /MACHINE:X64  /machine:x64 cmTC_8e8c3.dir\\Debug\\std_regex.obj
+          cmTC_8e8c3.vcxproj -> C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_8e8c3.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8e8c3.dir\\Debug\\cmTC_8e8c3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8e8c3.dir\\Debug\\cmTC_8e8c3.tlog\\cmTC_8e8c3.lastbuildstate".
+        Done Building Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_8e8c3.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.30
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/CMakeLists.txt:298 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/Modules;C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6a7fd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-12-17 12:29:34 PM.
+        Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_6a7fd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6a7fd.dir\\Debug\\".
+          Creating directory "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_6a7fd.dir\\Debug\\cmTC_6a7fd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6a7fd.dir\\Debug\\cmTC_6a7fd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6a7fd.dir\\Debug\\\\" /Fd"cmTC_6a7fd.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\benchmark\\cmake\\gnu_posix_regex.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+          gnu_posix_regex.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6a7fd.dir\\Debug\\\\" /Fd"cmTC_6a7fd.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\benchmark\\cmake\\gnu_posix_regex.cpp"
+        C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\benchmark\\cmake\\gnu_posix_regex.cpp(1,10): fatal  error C1083: Cannot open include file: 'gnuregex.h': No such file or directory [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_6a7fd.vcxproj]
+        Done Building Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_6a7fd.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_6a7fd.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\benchmark\\cmake\\gnu_posix_regex.cpp(1,10): fatal  error C1083: Cannot open include file: 'gnuregex.h': No such file or directory [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_6a7fd.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.39
+        
+      exitCode: 1
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/CMakeLists.txt:299 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/Modules;C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_709e6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-12-17 12:29:35 PM.
+        Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_709e6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_709e6.dir\\Debug\\".
+          Creating directory "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_709e6.dir\\Debug\\cmTC_709e6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_709e6.dir\\Debug\\cmTC_709e6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_709e6.dir\\Debug\\\\" /Fd"cmTC_709e6.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\benchmark\\cmake\\posix_regex.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+          posix_regex.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_709e6.dir\\Debug\\\\" /Fd"cmTC_709e6.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\benchmark\\cmake\\posix_regex.cpp"
+        C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\benchmark\\cmake\\posix_regex.cpp(1,10): fatal  error C1083: Cannot open include file: 'regex.h': No such file or directory [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_709e6.vcxproj]
+        Done Building Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_709e6.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_709e6.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\benchmark\\cmake\\posix_regex.cpp(1,10): fatal  error C1083: Cannot open include file: 'regex.h': No such file or directory [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_709e6.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 1
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/CMakeLists.txt:308 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/Modules;C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_35ac9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-12-17 12:29:35 PM.
+        Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_35ac9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_35ac9.dir\\Debug\\".
+          Creating directory "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_35ac9.dir\\Debug\\cmTC_35ac9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_35ac9.dir\\Debug\\cmTC_35ac9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_35ac9.dir\\Debug\\\\" /Fd"cmTC_35ac9.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\benchmark\\cmake\\steady_clock.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          steady_clock.cpp
+          cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_35ac9.dir\\Debug\\\\" /Fd"cmTC_35ac9.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\benchmark\\cmake\\steady_clock.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_35ac9.exe" /INCREMENTAL /ILK:"cmTC_35ac9.dir\\Debug\\cmTC_35ac9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp/Debug/cmTC_35ac9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp/Debug/cmTC_35ac9.lib" /MACHINE:X64  /machine:x64 cmTC_35ac9.dir\\Debug\\steady_clock.obj
+          cmTC_35ac9.vcxproj -> C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_35ac9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_35ac9.dir\\Debug\\cmTC_35ac9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_35ac9.dir\\Debug\\cmTC_35ac9.tlog\\cmTC_35ac9.lastbuildstate".
+        Done Building Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_35ac9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.72
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/CMakeLists.txt:311 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-0fkewn"
+      binary: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-0fkewn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/Modules;C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-0fkewn'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_27930.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-12-17 12:29:36 PM.
+        Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0fkewn\\cmTC_27930.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_27930.dir\\Debug\\".
+          Creating directory "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0fkewn\\Debug\\".
+          Creating directory "cmTC_27930.dir\\Debug\\cmTC_27930.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_27930.dir\\Debug\\cmTC_27930.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27930.dir\\Debug\\\\" /Fd"cmTC_27930.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0fkewn\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27930.dir\\Debug\\\\" /Fd"cmTC_27930.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0fkewn\\src.c"
+        C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0fkewn\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0fkewn\\cmTC_27930.vcxproj]
+        Done Building Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0fkewn\\cmTC_27930.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0fkewn\\cmTC_27930.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0fkewn\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0fkewn\\cmTC_27930.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.39
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/CMakeLists.txt:311 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-gr5lig"
+      binary: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-gr5lig"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/Modules;C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-gr5lig'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b2ac5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-12-17 12:29:37 PM.
+        Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gr5lig\\cmTC_b2ac5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b2ac5.dir\\Debug\\".
+          Creating directory "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gr5lig\\Debug\\".
+          Creating directory "cmTC_b2ac5.dir\\Debug\\cmTC_b2ac5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b2ac5.dir\\Debug\\cmTC_b2ac5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b2ac5.dir\\Debug\\\\" /Fd"cmTC_b2ac5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gr5lig\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b2ac5.dir\\Debug\\\\" /Fd"cmTC_b2ac5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gr5lig\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gr5lig\\Debug\\cmTC_b2ac5.exe" /INCREMENTAL /ILK:"cmTC_b2ac5.dir\\Debug\\cmTC_b2ac5.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-gr5lig/Debug/cmTC_b2ac5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-gr5lig/Debug/cmTC_b2ac5.lib" /MACHINE:X64  /machine:x64 cmTC_b2ac5.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gr5lig\\cmTC_b2ac5.vcxproj]
+        Done Building Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gr5lig\\cmTC_b2ac5.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gr5lig\\cmTC_b2ac5.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gr5lig\\cmTC_b2ac5.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.48
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/CMakeLists.txt:311 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-atwpmy"
+      binary: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-atwpmy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/Modules;C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-atwpmy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_721e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-12-17 12:29:38 PM.
+        Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-atwpmy\\cmTC_721e0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_721e0.dir\\Debug\\".
+          Creating directory "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-atwpmy\\Debug\\".
+          Creating directory "cmTC_721e0.dir\\Debug\\cmTC_721e0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_721e0.dir\\Debug\\cmTC_721e0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_721e0.dir\\Debug\\\\" /Fd"cmTC_721e0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-atwpmy\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_721e0.dir\\Debug\\\\" /Fd"cmTC_721e0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-atwpmy\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-atwpmy\\Debug\\cmTC_721e0.exe" /INCREMENTAL /ILK:"cmTC_721e0.dir\\Debug\\cmTC_721e0.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-atwpmy/Debug/cmTC_721e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-atwpmy/Debug/cmTC_721e0.lib" /MACHINE:X64  /machine:x64 cmTC_721e0.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-atwpmy\\cmTC_721e0.vcxproj]
+        Done Building Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-atwpmy\\cmTC_721e0.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-atwpmy\\cmTC_721e0.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-atwpmy\\cmTC_721e0.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.48
+        
+      exitCode: 1
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/CMakeLists.txt:312 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/Modules;C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_PTHREAD_AFFINITY"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0dab9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-12-17 12:29:38 PM.
+        Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_0dab9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0dab9.dir\\Debug\\".
+          Creating directory "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_0dab9.dir\\Debug\\cmTC_0dab9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0dab9.dir\\Debug\\cmTC_0dab9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0dab9.dir\\Debug\\\\" /Fd"cmTC_0dab9.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\benchmark\\cmake\\pthread_affinity.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+          pthread_affinity.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0dab9.dir\\Debug\\\\" /Fd"cmTC_0dab9.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\benchmark\\cmake\\pthread_affinity.cpp"
+        C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\benchmark\\cmake\\pthread_affinity.cpp(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_0dab9.vcxproj]
+        Done Building Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_0dab9.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_0dab9.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\benchmark\\cmake\\pthread_affinity.cpp(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeTmp\\cmTC_0dab9.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 1
+    runResult:
+      variable: "RUN_HAVE_PTHREAD_AFFINITY"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/test/CMakeLists.txt:8 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_UNUSED_VARIABLE"
+    directories:
+      source: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-eugr4d"
+      binary: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-eugr4d"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/Modules;C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_UNUSED_VARIABLE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-eugr4d'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cbbeb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-12-17 12:29:49 PM.
+        Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eugr4d\\cmTC_cbbeb.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_cbbeb.dir\\Debug\\".
+          Creating directory "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eugr4d\\Debug\\".
+          Creating directory "cmTC_cbbeb.dir\\Debug\\cmTC_cbbeb.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_cbbeb.dir\\Debug\\cmTC_cbbeb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_CXX_FLAG_WNO_UNUSED_VARIABLE /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_cbbeb.dir\\Debug\\\\" /Fd"cmTC_cbbeb.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -Wno-unused-variable -Wno-unused-variable "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eugr4d\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_CXX_FLAG_WNO_UNUSED_VARIABLE /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_cbbeb.dir\\Debug\\\\" /Fd"cmTC_cbbeb.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -Wno-unused-variable -Wno-unused-variable "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eugr4d\\src.cxx"
+        cl : command line  error D8021: invalid numeric argument '/Wno-unused-variable' [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eugr4d\\cmTC_cbbeb.vcxproj]
+        Done Building Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eugr4d\\cmTC_cbbeb.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eugr4d\\cmTC_cbbeb.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line  error D8021: invalid numeric argument '/Wno-unused-variable' [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eugr4d\\cmTC_cbbeb.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.39
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/test/CMakeLists.txt:33 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test BENCHMARK_HAS_O3_FLAG"
+    directories:
+      source: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-j4vrko"
+      binary: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-j4vrko"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/Modules;C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake"
+    buildResult:
+      variable: "BENCHMARK_HAS_O3_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-j4vrko'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9c7e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-12-17 12:29:50 PM.
+        Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j4vrko\\cmTC_9c7e0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9c7e0.dir\\Debug\\".
+          Creating directory "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j4vrko\\Debug\\".
+          Creating directory "cmTC_9c7e0.dir\\Debug\\cmTC_9c7e0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9c7e0.dir\\Debug\\cmTC_9c7e0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BENCHMARK_HAS_O3_FLAG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_9c7e0.dir\\Debug\\\\" /Fd"cmTC_9c7e0.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -O3 "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j4vrko\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+          src.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BENCHMARK_HAS_O3_FLAG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_9c7e0.dir\\Debug\\\\" /Fd"cmTC_9c7e0.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -O3 "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j4vrko\\src.cxx"
+        cl : command line  warning D9002: ignoring unknown option '-O3' [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j4vrko\\cmTC_9c7e0.vcxproj]
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j4vrko\\Debug\\cmTC_9c7e0.exe" /INCREMENTAL /ILK:"cmTC_9c7e0.dir\\Debug\\cmTC_9c7e0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-j4vrko/Debug/cmTC_9c7e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-j4vrko/Debug/cmTC_9c7e0.lib" /MACHINE:X64  /machine:x64 cmTC_9c7e0.dir\\Debug\\src.obj
+          cmTC_9c7e0.vcxproj -> C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j4vrko\\Debug\\cmTC_9c7e0.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_9c7e0.dir\\Debug\\cmTC_9c7e0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9c7e0.dir\\Debug\\cmTC_9c7e0.tlog\\cmTC_9c7e0.lastbuildstate".
+        Done Building Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j4vrko\\cmTC_9c7e0.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j4vrko\\cmTC_9c7e0.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line  warning D9002: ignoring unknown option '-O3' [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j4vrko\\cmTC_9c7e0.vcxproj]
+        
+            1 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/test/CMakeLists.txt:136 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test BENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG"
+    directories:
+      source: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-0j17gv"
+      binary: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-0j17gv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake/Modules;C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/benchmark/cmake"
+    buildResult:
+      variable: "BENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/CMakeFiles/CMakeScratch/TryCompile-0j17gv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5df5a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-12-17 12:29:51 PM.
+        Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0j17gv\\cmTC_5df5a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5df5a.dir\\Debug\\".
+          Creating directory "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0j17gv\\Debug\\".
+          Creating directory "cmTC_5df5a.dir\\Debug\\cmTC_5df5a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5df5a.dir\\Debug\\cmTC_5df5a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_5df5a.dir\\Debug\\\\" /Fd"cmTC_5df5a.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -Werror=deprecated-declarations "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0j17gv\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_5df5a.dir\\Debug\\\\" /Fd"cmTC_5df5a.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -Werror=deprecated-declarations "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0j17gv\\src.cxx"
+        cl : command line  error D8021: invalid numeric argument '/Werror=deprecated-declarations' [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0j17gv\\cmTC_5df5a.vcxproj]
+        Done Building Project "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0j17gv\\cmTC_5df5a.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0j17gv\\cmTC_5df5a.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line  error D8021: invalid numeric argument '/Werror=deprecated-declarations' [C:\\Users\\Alfred\\Documents\\Github\\Lets-Do-Cpp\\1-InitialBenchmark\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0j17gv\\cmTC_5df5a.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.37
+        
+      exitCode: 1
+...

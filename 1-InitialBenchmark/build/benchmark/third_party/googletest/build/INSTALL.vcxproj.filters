@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Alfred\Documents\Github\Lets-Do-Cpp\1-InitialBenchmark\build\CMakeFiles\c2872c07d42508f4b328679a30cb60f4\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2DAC5F0A-3643-360B-8E79-4635E9517E74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

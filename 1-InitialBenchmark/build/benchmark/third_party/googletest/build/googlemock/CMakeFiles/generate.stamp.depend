@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake
+C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/benchmark/third_party/googletest/src/googlemock/CMakeLists.txt
+C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/benchmark/third_party/googletest/src/googlemock/cmake/gmock.pc.in
+C:/Users/Alfred/Documents/Github/Lets-Do-Cpp/1-InitialBenchmark/build/benchmark/third_party/googletest/src/googlemock/cmake/gmock_main.pc.in
