@@ -1,0 +1,7 @@
+*.project
+.vscode
+CMakeFiles/*
+*.cmake
+CMakeCache.txt
+Makefile
+SocketLibrary
