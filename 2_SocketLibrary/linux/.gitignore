@@ -5,3 +5,5 @@ CMakeFiles/*
 CMakeCache.txt
 Makefile
 SocketLibrary
+SocketLibrary2
+.out/*

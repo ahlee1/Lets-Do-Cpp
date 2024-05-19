@@ -1,21 +1,20 @@
 #include "../include/socket.hpp"
-#include <thread>
+#include <stdio.h>
+#include <string.h>
 
 int main() 
-{
-	SocketServer sockServer = SocketServer<int>(SOCK_STREAM, 0, AF_INET, htons(8080), INADDR_ANY);
-	std::thread t1(&SocketServer<int>::startServer, sockServer);
+{   
+    try{
+        SocketServer sockServer = SocketServer(SOCK_STREAM, 0, AF_INET, htons(8080), INADDR_ANY);
+        sockServer.startTCPServer(); 
 
+        sockServer = SocketServer(SOCK_DGRAM, 0, AF_INET, htons(8080), INADDR_ANY);
+        sockServer.startUDPServer();    
+    } catch(...){
+        std::cout << "Error";
+        throw;
+    }
 
-	for (int i = 0; i < 10; i++) {
-		std::cout << i << std::endl;
-		SocketClient sockClient = SocketClient<int>(SOCK_STREAM, 0, AF_INET, htons(8080), inet_addr("8.8.8.8"));
-		std::thread t2(&SocketClient<int>::sendData, sockClient);
-
-		t2.join();
-	}
-
-	t1.join();
 
 	return 0;
 }
